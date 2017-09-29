@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack-win": "electron-packager . Charts --platform=win32 --icon=favicon.ico --overwrite"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
